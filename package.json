@@ -18,7 +18,7 @@
     "url": "https://github.com/ChristianQueinnec/CodeGradXlib4node.git"
   },
   "dependencies": {
-    "codegradxlib": "^2.0.18"
+    "codegradxlib": "^2.0.19"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
