@@ -1,0 +1,57 @@
+{
+  "name": "codegradxlib4node",
+  "version": "2.0.18",
+  "description": "Javascript Library to interact with the CodeGradX infrastructure. Runs on Node.js or browsers",
+  "keywords": [
+    "CodeGradX",
+    "Infrastructure for mechanically grading programs",
+    "Paracamplus",
+    "Node.js"
+  ],
+  "main": "codegradxlib4node.js",
+  "scripts": {
+    "lint": "eslint codegradxlib4node.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristianQueinnec/CodeGradXlib4node.git"
+  },
+  "dependencies": {
+    "codegradxlib": "^2.0.18"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "jasmine": "^2.3.2"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "codegradxlib4node.js",
+    ".gitignore",
+    "Makefile",
+    "spec/*-spec.js",
+    "spec/org.example.fw4ex.grading.check.tgz",
+    "spec/vmauthor-data.js",
+    "spec/min.c",
+    "spec/fw4ex.xml",
+    "spec/oefgc.tgz",
+    "spec/oefgc/fw4ex.xml",
+    "spec/support/jasmine.json"
+  ],
+  "author": {
+    "name": "Christian Queinnec",
+    "email": "Christian.Queinnec@CodeGradX.org",
+    "url": "https://christian.queinnec.org/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/ChristianQueinnec/CodeGradXlib4node/issues"
+  },
+  "homepage": "https://github.com/ChristianQueinnec/CodeGradXlib4node#readme"
+}
