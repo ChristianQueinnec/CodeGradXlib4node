@@ -1,6 +1,6 @@
 {
   "name": "codegradxlib4node",
-  "version": "2.0.18",
+  "version": "2.0.19",
   "description": "Javascript Library to interact with the CodeGradX infrastructure. Runs on Node.js or browsers",
   "keywords": [
     "CodeGradX",
@@ -18,7 +18,7 @@
     "url": "https://github.com/ChristianQueinnec/CodeGradXlib4node.git"
   },
   "dependencies": {
-    "codegradxlib": "^2.0.19"
+    "codegradxlib": "^2.0.22"
   },
   "devDependencies": {
     "eslint": "^4.19.1",

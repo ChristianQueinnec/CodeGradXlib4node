@@ -11,6 +11,11 @@ lint :
 
 tests : lint test.with.real.servers test.with.vmauthor
 
+update :
+	-rm -rf node_modules
+	npm install codegradxlib@`jq -r .version < ../CodeGradXlib/package.json`
+	npm install
+
 refresh :
 	rsync -avu ../CodeGradXlib/codegradxlib.js \
 	  ./node_modules/codegradxlib/
